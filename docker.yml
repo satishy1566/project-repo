@@ -8,3 +8,4 @@
       shell: docker image rm satishy1566/democontainer                            #name of images (docker images)
     - name: create new container
       shell: docker container run -itd --name democontainer -p 9000:80 satishy1566/satish     #(docker-job>> name of jenkins job)
+      #
